@@ -1,5 +1,5 @@
 import got from 'got';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import { MediafireArgsSchema, MediafireSchema } from '../types/index.js';
 import { parseFileSize } from '../utils/index.js';
 export async function mediafiredl(url) {
