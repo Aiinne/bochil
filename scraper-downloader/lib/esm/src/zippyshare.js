@@ -1,5 +1,5 @@
 import got from 'got';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import { ZippyShareArgsSchema, ZippyShareSchema } from '../types/index.js';
 import { parseFileSize } from '../utils/index.js';
 export default async function zippyshare(url) {
