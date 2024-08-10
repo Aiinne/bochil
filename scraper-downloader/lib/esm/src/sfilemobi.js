@@ -1,5 +1,5 @@
 import got from 'got';
-import cherio from 'cheerio';
+import * as cheerio from 'cheerio';
 import { parseFileSize, } from '../utils/index.js';
 import { SfileMobiArgsSchema, SfileMobiSchema, SfileMobiSearchArgsSchema, SfileMobiSearchSchema } from '../types/index.js';
 export async function sfilemobiSearch(query, page = 1) {
