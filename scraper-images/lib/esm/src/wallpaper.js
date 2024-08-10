@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import got from 'got';
 import { WallpaperSchema } from '../types/index.js';
 export async function wallpaper(query) {
